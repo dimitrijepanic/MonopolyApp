@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Dimitrije Panic/Desktop/faks/pmu_projekat/app/src/main/res/drawable-xxhdpi/dice_3.xml" value="0.1" />
+        <entry key="..\:/Users/Dimitrije Panic/Desktop/faks/pmu_projekat/app/src/main/res/drawable-xxhdpi/dice_4.xml" value="0.1" />
+        <entry key="..\:/Users/Dimitrije Panic/Desktop/faks/pmu_projekat/app/src/main/res/drawable-xxhdpi/dice_5.xml" value="0.1" />
+        <entry key="..\:/Users/Dimitrije Panic/Desktop/faks/pmu_projekat/app/src/main/res/drawable-xxhdpi/empty_dice.xml" value="0.1" />
         <entry key="..\:/Users/Dimitrije Panic/Desktop/faks/pmu_projekat/app/src/main/res/drawable/outline_attach_money_24.xml" value="0.1" />
         <entry key="..\:/Users/Dimitrije Panic/Desktop/faks/pmu_projekat/app/src/main/res/layout/activity_main.xml" value="0.165625" />
       </map>

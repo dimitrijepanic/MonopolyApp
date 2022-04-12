@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private Canvas canvas;
 
     private static int [] playerColor = {Color.RED, Color.BLUE, Color.YELLOW, Color.GREEN};
+    private static int [] alphaPlayerColor = {0x80FF0000, 0x7E0000FF, 0x80FFFF00, 0x80008000};
     private static int fieldSize = 32;
 
     @Override
@@ -26,7 +27,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         setPlayers(4);
+        setStartPlayer();
 
+    }
+
+    private void setStartPlayer(){
+        binding.player1Card.setBackgroundColor(playerColor[0]);
     }
 
     private int throwDice(){
