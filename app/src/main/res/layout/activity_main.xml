@@ -1,179 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-   <ImageView
-       android:id="@+id/board_img"
-       android:layout_marginTop="20dp"
-       android:foregroundGravity="center_horizontal"
-       android:layout_width="400dp"
-       android:layout_height="400dp"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintEnd_toEndOf="parent"
-       app:layout_constraintTop_toTopOf="parent" />
-
-
-   <LinearLayout
-       android:id="@+id/card"
+   <TextView
        android:layout_width="match_parent"
-       android:layout_height="200dp"
-       android:layout_margin="8dp"
-       android:orientation="vertical"
-       app:layout_constraintBottom_toBottomOf="parent"
-       app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toBottomOf="@id/board_img">
+       android:layout_height="150dp"
+       android:background="@drawable/monopolybg">
 
-      <LinearLayout
-          android:layout_width="match_parent"
-          android:layout_height="0dp"
-          android:layout_weight="1"
-          android:orientation="horizontal">
+   </TextView>
+   <TextView
+       android:id="@+id/mainGame"
+       android:layout_width="match_parent"
+       android:layout_height="150dp"
+       android:text="Welcome To Monopoly!"
+       android:textAlignment="center"
+       android:textColor="@color/black"
+       android:textSize="42sp"></TextView>
 
-         <com.google.android.material.card.MaterialCardView
-             android:id="@+id/player1_card"
-             android:layout_width="0dp"
-             android:layout_height="match_parent"
-             android:layout_margin="8dp"
-             android:layout_weight="1"
-             app:cardBackgroundColor="#80FF0000">
+   <Button
+       android:id="@+id/startGame"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="13dp"
+       android:text="Start Game"
+       android:textAlignment="center"
+       android:layout_gravity="center"></Button>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
+   <Button
+       android:id="@+id/settings"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="20dp"
+       android:text="Settings"
+       android:textAlignment="center"
+       android:layout_gravity="center">
 
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:layout_margin="8dp"
-                   android:text="Player 1"
-                   android:textSize="16sp"
-                   android:textStyle="bold" />
-
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:layout_margin="8dp"
-                   android:drawableLeft="@drawable/outline_attach_money_24"
-                   android:text="10000000"
-                   android:textStyle="bold"/>
-            </LinearLayout>
-         </com.google.android.material.card.MaterialCardView>
-
-         <com.google.android.material.card.MaterialCardView
-             android:id="@+id/player2_card"
-             android:layout_width="0dp"
-             android:layout_height="match_parent"
-             android:layout_margin="8dp"
-             android:layout_weight="1"
-             app:cardBackgroundColor="#7E0000FF">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:layout_margin="8dp"
-                   android:text="Player 2"
-                   android:textSize="16sp"
-                   android:textStyle="bold" />
-
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:layout_margin="8dp"
-                   android:drawableLeft="@drawable/outline_attach_money_24"
-                   android:text="10000000"
-                   android:textStyle="bold"/>
-            </LinearLayout>
-         </com.google.android.material.card.MaterialCardView>
-
-      </LinearLayout>
-
-      <LinearLayout
-          android:layout_width="match_parent"
-          android:layout_height="0dp"
-          android:layout_weight="1"
-          android:orientation="horizontal">
-
-         <com.google.android.material.card.MaterialCardView
-             android:id="@+id/player3_card"
-             android:layout_width="0dp"
-             android:layout_height="match_parent"
-             android:layout_margin="8dp"
-             android:layout_weight="1"
-             app:cardBackgroundColor="#80FFFF00">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:layout_margin="8dp"
-                   android:text="Player 3"
-                   android:textSize="16sp"
-                   android:textStyle="bold" />
-
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:layout_margin="8dp"
-                   android:drawableLeft="@drawable/outline_attach_money_24"
-                   android:text="10000000"
-                   android:textStyle="bold"/>
-            </LinearLayout>
-         </com.google.android.material.card.MaterialCardView>
-
-         <com.google.android.material.card.MaterialCardView
-             android:id="@+id/player4_card"
-             android:layout_width="0dp"
-             android:layout_height="match_parent"
-             android:layout_margin="8dp"
-             android:layout_weight="1"
-             app:cardBackgroundColor="#80008000">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:layout_margin="8dp"
-                   android:text="Player 4"
-                   android:textSize="16sp"
-                   android:textStyle="bold" />
-
-               <TextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:layout_margin="8dp"
-                   android:drawableLeft="@drawable/outline_attach_money_24"
-                   android:text="10000000"
-                   android:textStyle="bold"/>
-            </LinearLayout>
-         </com.google.android.material.card.MaterialCardView>
-
-      </LinearLayout>
-
-   </LinearLayout>
+   </Button>
 
 
+   <Button
+       android:id="@+id/stats"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="View Stats"
+       android:textAlignment="center"
+       android:layout_gravity="center">
+
+   </Button>
 
 
-
-
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -8,7 +8,13 @@
         <entry key="..\:/Users/Dimitrije Panic/Desktop/faks/pmu_projekat/app/src/main/res/drawable-xxhdpi/dice_5.xml" value="0.1" />
         <entry key="..\:/Users/Dimitrije Panic/Desktop/faks/pmu_projekat/app/src/main/res/drawable-xxhdpi/empty_dice.xml" value="0.1" />
         <entry key="..\:/Users/Dimitrije Panic/Desktop/faks/pmu_projekat/app/src/main/res/drawable/outline_attach_money_24.xml" value="0.1" />
+        <entry key="..\:/Users/Dimitrije Panic/Desktop/faks/pmu_projekat/app/src/main/res/layout/activity_game_board.xml" value="0.15579710144927536" />
         <entry key="..\:/Users/Dimitrije Panic/Desktop/faks/pmu_projekat/app/src/main/res/layout/activity_main.xml" value="0.165625" />
+        <entry key="..\:/Users/Dimitrije Panic/Desktop/faks/pmu_projekat/app/src/main/res/layout/activity_settings.xml" value="0.11306765523632993" />
+        <entry key="..\:/Users/Dimitrije Panic/Desktop/faks/pmu_projekat/app/src/main/res/layout/activity_start_game.xml" value="0.15760869565217392" />
+        <entry key="..\:/Users/Dimitrije Panic/Desktop/faks/pmu_projekat/app/src/main/res/layout/dialog_field.xml" value="0.12604166666666666" />
+        <entry key="..\:/Users/Dimitrije Panic/Desktop/faks/pmu_projekat/app/src/main/res/layout/dialog_player.xml" value="0.15760869565217392" />
+        <entry key="..\:/Users/Dimitrije Panic/Desktop/faks/pmu_projekat/app/src/main/res/layout/fragment_second.xml" value="0.11510416666666666" />
       </map>
     </option>
   </component>
